@@ -1,0 +1,76 @@
+{
+  "HorizonLayout": [
+    {
+      "layout": "logo",
+      "showLogo": true,
+      "showMenu": true,
+      "showSearch": false
+    },
+    {
+      "layout" : "sliderList",
+      "type" :"imageOnTheRight",
+      "name": "Haberler!",
+      "category": 60,
+      "imageBorder": 20
+    },
+    {
+      "layout" : "sliderList",
+      "type" :"imageOnTheRight",
+      "name": "Yorumlar!",
+      "category": 71,
+      "imageBorder": 20
+    }
+  ],
+  "Setting": {
+    "MainColor": "#63B5EE",
+    "ProductListLayout": "list"
+  },
+  "TabBar": [
+    {
+      "layout": "home",
+      "icon": "assets/icons/tabs/icon-home.png"
+    },
+    {
+      "layout": "category",
+      "categoryLayout": "card",
+      "icon": "assets/icons/tabs/icon-category.png"
+    },
+    {
+      "layout": "search",
+      "icon": "assets/icons/tabs/icon-search.png"
+    },
+    {
+      "layout": "wishlist",
+      "icon": "assets/icons/tabs/icon-heartthin.png"
+    },
+    {
+      "layout": "profile",
+      "icon": "assets/icons/tabs/icon-user.png"
+    }
+  ],
+  "SplashScreen": {
+    "type": "flare",
+    "data" : "assets/images/ggturkeysplash.flr"
+  },
+  "OnBoarding": {
+    "layout": "",
+    "data": [
+      {
+        "title": "GG Turkey'e Hoşgeldiniz",
+        "image": "assets/images/fogg-delivery-1.png",
+        "desc": "Sizler için hazırladığımız içeriklere göz atın! "
+      },
+      {
+        "title": "Haberler Ve Yorumlar!",
+        "image": "assets/images/fogg-uploading-1.png",
+        "desc":
+        "Web sitemizde bulunan içeriklere mobil uygulama ile hızlıca ulaşabilirsiniz."
+      },
+      {
+        "title": "Dolaşmaya başla!",
+        "image": "fogg-order-completed.png",
+        "desc": "Hemen içeriklere göz at!"
+      }
+    ]
+  }
+}
